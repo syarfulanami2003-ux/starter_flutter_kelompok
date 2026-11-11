@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import '../presentation/views/home_view.dart';
+import '../presentation/views/login_view.dart';
 import '../theme/app_theme.dart';
 
 class MyApp extends StatelessWidget {
@@ -9,10 +9,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'E-Hunian',
+      title: 'TARMAX - Campus Market',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
-      home: const HomeView(),
+      home: const LoginView(),
     );
   }
 }
